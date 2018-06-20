@@ -16,6 +16,13 @@ The plant's transient and steady state behaviour was finally compensated by
 
 feedback controller.
 
+<p align="center"> 
+<a href="https://www.youtube.com/watch?v=bfkokE__14I" target="_blank"><img src="https://github.com/BatyaGG/Hardware-implementation-of-linear-controller/blob/master/figures/youtube.png" 
+width="70%"" border="10" /></a> 
+<br> 
+<i>The demo video</i> 
+</p> 
+
 Compensated vs Uncompensated comparison plots of final system are shown below. The process of designing the final controller is explained after comparison plots starting from "Introduction" section.
 
 <p align="center">
