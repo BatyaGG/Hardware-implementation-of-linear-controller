@@ -3,7 +3,7 @@
 The second order RLC circuit plant has 
 
 <p align="center">
-  <img src="https://github.com/BatyaGG/Hardware-implementation-of-linear-controller/blob/master/figures/plant_transfer_function_real.png">
+  <img src="https://github.com/BatyaGG/Hardware-implementation-of-linear-controller/blob/master/figures/plant_transfer_function_real.PNG">
 </p>
 
 transfer function.
@@ -11,7 +11,7 @@ transfer function.
 The plant's transient and steady state behaviour was finally compensated by 
 
 <p align="center">
-  <img src="https://github.com/BatyaGG/Hardware-implementation-of-linear-controller/blob/master/figures/final_controller_transfer_function.png">
+  <img src="https://github.com/BatyaGG/Hardware-implementation-of-linear-controller/blob/master/figures/final_controller_transfer_function.PNG">
 </p>
 
 feedback controller.
@@ -19,15 +19,15 @@ feedback controller.
 Compensated vs Uncompensated comparison plots of final system is shown below. The process of designing the final controller is explained after comparison plots starting from "Introduction" section.
 
 <p align="center">
-  <img src="https://github.com/BatyaGG/Hardware-implementation-of-linear-controller/blob/master/figures/matlab_root_locus.png">
+  <img src="https://github.com/BatyaGG/Hardware-implementation-of-linear-controller/blob/master/figures/matlab_root_locus.PNG">
 </p>
 
 <p align="center">
-  <img src="https://github.com/BatyaGG/Hardware-implementation-of-linear-controller/blob/master/figures/matlab_niquist.png">
+  <img src="https://github.com/BatyaGG/Hardware-implementation-of-linear-controller/blob/master/figures/matlab_niquist.PNG">
 </p>
 
 <p align="center">
-  <img src="https://github.com/BatyaGG/Hardware-implementation-of-linear-controller/blob/master/figures/matlab_bode.png">
+  <img src="https://github.com/BatyaGG/Hardware-implementation-of-linear-controller/blob/master/figures/matlab_bode.PNG">
 </p>
 
 <p align="center">
