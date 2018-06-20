@@ -5,5 +5,16 @@ RLC circuit is a circuit containing resistors, capacitors and inductors. Resisto
 <p align="center">
   <img src="https://github.com/BatyaGG/Hardware-implementation-of-linear-controller/blob/master/figures/plant.png">
   <br>
-  <i>Table 1: Dataset structure</i>
+  <i>Figure 1: Circuit diagram of Plant</i>
 </p>
+
+The transfer function of our plant is the following:
+
+<p align="center">
+  <img src="https://github.com/BatyaGG/Hardware-implementation-of-linear-controller/blob/master/figures/plant_transfer_function.png">
+</p>
+
+Where we choose R = 991Ohms, C = 47nF and L = 33mH.
+
+So, final transfer function of process is H(s) = 991 / (1.537 * 10<sup>-6</sup>s<sup>2</sup> + 0.033s + 991)
+
