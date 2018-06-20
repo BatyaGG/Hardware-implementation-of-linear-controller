@@ -1,5 +1,41 @@
 # Improving transient and steady state behavior of second order RLC circuit system.
 
+The second order RLC circuit plant has 
+
+<p align="center">
+  <img src="https://github.com/BatyaGG/Hardware-implementation-of-linear-controller/blob/master/figures/plant_transfer_function_real.png">
+</p>
+
+transfer function.
+
+The plant's transient and steady state behaviour was finally compensated by 
+
+<p align="center">
+  <img src="https://github.com/BatyaGG/Hardware-implementation-of-linear-controller/blob/master/figures/final_controller_transfer_function.png">
+</p>
+
+feedback controller.
+
+Compensated vs Uncompensated comparison plots of final system is shown below. The process of designing the final controller is explained after comparison plots starting from "Introduction" section.
+
+<p align="center">
+  <img src="https://github.com/BatyaGG/Hardware-implementation-of-linear-controller/blob/master/figures/matlab_root_locus.png">
+</p>
+
+<p align="center">
+  <img src="https://github.com/BatyaGG/Hardware-implementation-of-linear-controller/blob/master/figures/matlab_niquist.png">
+</p>
+
+<p align="center">
+  <img src="https://github.com/BatyaGG/Hardware-implementation-of-linear-controller/blob/master/figures/matlab_bode.png">
+</p>
+
+<p align="center">
+  <img src="https://github.com/BatyaGG/Hardware-implementation-of-linear-controller/blob/master/figures/compensated_by_bode.png">
+</p>
+
+## Introduction
+
 RLC circuit is a circuit containing resistors, capacitors and inductors. Resistor is a linear element which’s aim is to drop potential, capacitor and inductor are nonlinear elements which stores energy in electric and magnetic fields respectively. Behavior of these elements for step input is easily predictable, but combination of such elements needs some mathematical analysis, especially when we are given some specifications for it. The aim is to improve steady state error and transient response of the RLC circuit for step input using feedback control combination.
 
 <p align="center">
@@ -16,7 +52,7 @@ The transfer function of our plant is the following:
 
 Where we choose R = 991Ohms, C = 47nF and L = 33mH.
 
-So, final transfer function of process is H(s) = 991 / (1.537 * 10<sup>-6</sup>s<sup>2</sup> + 0.033s + 991)
+So, final transfer function of plant is H(s) = 991 / (1.537 * 10<sup>-6</sup>s<sup>2</sup> + 0.033s + 991)
 
 Open loop step response of this system has 23.1% overshoot and 0 steady state error, however, this is an ideal mathematical case. In practice, energy loss and process random disturbance is not controlled, and the real step response will behave in not appropriate way.
 
